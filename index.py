@@ -162,6 +162,3 @@ def toppage():
 @app.route('/compare')
 def comparepage():
     return render_template('compare.html')
-    
-if __name__ == "__main__":
-    app.run(debug=True)
