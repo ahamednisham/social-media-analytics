@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 app = Flask(__name__)
 
 #Youtube starts here
-api_key='AIzaSyCFSEd7xI7IAh4X67Z07dagb0z5odMWjUA'
+api_key=''
 
 youtube = build('youtube', 'v3', developerKey=api_key)
 def get_channel_stats(youtube, ch_username):
@@ -30,10 +30,10 @@ def get_channel_stats(youtube, ch_username):
     return all_data
 #Youtube ends here
 #Twitter starts here
-api_key = 'z9CREzdGc3vxdmHjFVZ724XeK'
-api_key_secret = '5JAED00x8ohda2jn6Bm15Jhb8HQs2KMGOGfLnC8hkLMhnZqpu2'
-access_token = '1208139911766925312-6ka8h7pjEdaEWbkSnp6VsTL6GxIHDe'
-access_token_secret = 'WKSmnEHYVKXzbvueGlvDMvDjVdm4oj60sV0jlBxmhu2lu'
+api_key = ''
+api_key_secret = ''
+access_token = ''
+access_token_secret = ''
 # Import Tweepy
 import tweepy
 
